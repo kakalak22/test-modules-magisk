@@ -1,360 +1,343 @@
 {
-    "name": "Sanmer Magisk Repo (demo)",
-    "metadata": {
-      "version": 1,
-      "timestamp": 1698551661.585215
+  "name": "Sanmer Magisk Repo (demo)",
+  "metadata": {
+    "version": 1,
+    "timestamp": 1698551661.585215
+  },
+  "modules": [
+    {
+      "id": "magisk-hide-props",
+      "name": "magisk hide props",
+      "version": "1.0.41",
+      "versionCode": 104113,
+      "author": "test",
+      "description": "Static ARM adb and fastboot binaries for Android built with the NDK",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1679025505.129431,
+        "license": "",
+        "homepage": "",
+        "source": "https://github.com/Magisk-Modules-Repo/MagiskHidePropsConf.git"
+      },
+      "versions": [
+        {
+          "timestamp": 1686557746.0,
+          "version": "1.0.41",
+          "versionCode": 104111,
+          "zipUrl": "https://kakalak22.github.io/test-modules-magisk/modules/magisk-hide-props/MagiskHidePropsConf-v6.1.2.zip"
+        }
+      ]
     },
-    "modules": [
-      {
-        "id": "adb-ndk",
-        "name": "magisk hide props",
-        "version": "1.0.41",
-        "versionCode": 104113,
-        "author": "osm0sis & Surge1223 @ xda-developers",
-        "description": "Static ARM adb and fastboot binaries for Android built with the NDK",
-        "track": {
-          "type": "ONLINE_JSON",
-          "added": 1679025505.129431,
-          "license": "",
-          "homepage": "",
-          "source": "https://github.com/Magisk-Modules-Repo/MagiskHidePropsConf.git",
-          "support": "https://is.gd/osm0_",
-          "donate": "https://github.com/sponsors/osm0sis"
-        },
-        "versions": [
-          {
-            "timestamp": 1686557746.0,
-            "version": "1.0.41",
-            "versionCode": 104111,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/adb-ndk/1.0.41_104111.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/adb-ndk/1.0.41_104111.md"
-          },
-          {
-            "timestamp": 1693442224.0,
-            "version": "1.0.41",
-            "versionCode": 104112,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/adb-ndk/1.0.41_104112.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/adb-ndk/1.0.41_104112.md"
-          },
-          {
-            "timestamp": 1693751147.0,
-            "version": "1.0.41",
-            "versionCode": 104113,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/adb-ndk/1.0.41_104113.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/adb-ndk/1.0.41_104113.md"
-          }
-        ]
+    {
+      "id": "busybox-ndk",
+      "name": "Busybox for Android NDK",
+      "version": "1.36.1",
+      "versionCode": 13614,
+      "author": "osm0sis @ xda-developers",
+      "description": "Static busybox binary for all Android architectures built with the NDK",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1679025505.129431,
+        "license": "",
+        "homepage": "",
+        "source": "https://github.com/Magisk-Modules-Repo/busybox-ndk.git",
+        "support": "https://is.gd/osm0_",
+        "donate": "https://github.com/sponsors/osm0sis"
       },
-      {
-        "id": "busybox-ndk",
-        "name": "Busybox for Android NDK",
-        "version": "1.36.1",
-        "versionCode": 13614,
-        "author": "osm0sis @ xda-developers",
-        "description": "Static busybox binary for all Android architectures built with the NDK",
-        "track": {
-          "type": "ONLINE_JSON",
-          "added": 1679025505.129431,
-          "license": "",
-          "homepage": "",
-          "source": "https://github.com/Magisk-Modules-Repo/busybox-ndk.git",
-          "support": "https://is.gd/osm0_",
-          "donate": "https://github.com/sponsors/osm0sis"
+      "versions": [
+        {
+          "timestamp": 1686557854.0,
+          "version": "1.36.1",
+          "versionCode": 13612,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/busybox-ndk/1.36.1_13612.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/busybox-ndk/1.36.1_13612.md"
         },
-        "versions": [
-          {
-            "timestamp": 1686557854.0,
-            "version": "1.36.1",
-            "versionCode": 13612,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/busybox-ndk/1.36.1_13612.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/busybox-ndk/1.36.1_13612.md"
-          },
-          {
-            "timestamp": 1693751259.0,
-            "version": "1.36.1",
-            "versionCode": 13613,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/busybox-ndk/1.36.1_13613.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/busybox-ndk/1.36.1_13613.md"
-          },
-          {
-            "timestamp": 1694466217.0,
-            "version": "1.36.1",
-            "versionCode": 13614,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/busybox-ndk/1.36.1_13614.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/busybox-ndk/1.36.1_13614.md"
-          }
-        ]
+        {
+          "timestamp": 1693751259.0,
+          "version": "1.36.1",
+          "versionCode": 13613,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/busybox-ndk/1.36.1_13613.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/busybox-ndk/1.36.1_13613.md"
+        },
+        {
+          "timestamp": 1694466217.0,
+          "version": "1.36.1",
+          "versionCode": 13614,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/busybox-ndk/1.36.1_13614.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/busybox-ndk/1.36.1_13614.md"
+        }
+      ]
+    },
+    {
+      "id": "safetynet-fix",
+      "name": "Universal SafetyNet Fix",
+      "version": "v2.4.0",
+      "versionCode": 20400,
+      "author": "kdrag0n",
+      "description": "A universal fix for SafetyNet and Play Integrity on Android 8\u201313 devices with hardware attestation.",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1679025505.129431,
+        "license": "MIT",
+        "homepage": "",
+        "source": "https://github.com/kdrag0n/safetynet-fix.git",
+        "support": "https://github.com/kdrag0n/safetynet-fix/issues",
+        "donate": "https://patreon.com/kdrag0n"
       },
-      {
-        "id": "safetynet-fix",
-        "name": "Universal SafetyNet Fix",
-        "version": "v2.4.0",
-        "versionCode": 20400,
-        "author": "kdrag0n",
-        "description": "A universal fix for SafetyNet and Play Integrity on Android 8\u201313 devices with hardware attestation.",
-        "track": {
-          "type": "ONLINE_JSON",
-          "added": 1679025505.129431,
-          "license": "MIT",
-          "homepage": "",
-          "source": "https://github.com/kdrag0n/safetynet-fix.git",
-          "support": "https://github.com/kdrag0n/safetynet-fix/issues",
-          "donate": "https://patreon.com/kdrag0n"
-        },
-        "versions": [
-          {
-            "timestamp": 1673286512.0,
-            "version": "v2.4.0",
-            "versionCode": 20400,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/safetynet-fix/v2.4.0_20400.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/safetynet-fix/v2.4.0_20400.md"
-          }
-        ]
+      "versions": [
+        {
+          "timestamp": 1673286512.0,
+          "version": "v2.4.0",
+          "versionCode": 20400,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/safetynet-fix/v2.4.0_20400.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/safetynet-fix/v2.4.0_20400.md"
+        }
+      ]
+    },
+    {
+      "id": "zygisk-storage-isolation",
+      "name": "Zygisk - Enhanced mode for Storage Isolation",
+      "version": "v28.1.0",
+      "versionCode": 85,
+      "author": "Rikka",
+      "description": "Enable Enhanced mode for Storage Isolation. This module requires Magisk 24.0+ and Zygisk enabled.",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1680541356.760972,
+        "license": "",
+        "homepage": "https://sr.rikka.app/",
+        "source": "",
+        "support": "https://sr.rikka.app/guide/faq/how_to_report_problems/",
+        "donate": ""
       },
-      {
-        "id": "zygisk-storage-isolation",
-        "name": "Zygisk - Enhanced mode for Storage Isolation",
-        "version": "v28.1.0",
-        "versionCode": 85,
-        "author": "Rikka",
-        "description": "Enable Enhanced mode for Storage Isolation. This module requires Magisk 24.0+ and Zygisk enabled.",
-        "track": {
-          "type": "ONLINE_JSON",
-          "added": 1680541356.760972,
-          "license": "",
-          "homepage": "https://sr.rikka.app/",
-          "source": "",
-          "support": "https://sr.rikka.app/guide/faq/how_to_report_problems/",
-          "donate": ""
-        },
-        "versions": [
-          {
-            "timestamp": 1679899057.0,
-            "version": "v28.1.0",
-            "versionCode": 85,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk-storage-isolation/v28.1.0_85.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk-storage-isolation/v28.1.0_85.md"
-          }
-        ]
+      "versions": [
+        {
+          "timestamp": 1679899057.0,
+          "version": "v28.1.0",
+          "versionCode": 85,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk-storage-isolation/v28.1.0_85.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk-storage-isolation/v28.1.0_85.md"
+        }
+      ]
+    },
+    {
+      "id": "zygisk-sui",
+      "name": "Zygisk - Sui",
+      "version": "v13.5.1",
+      "versionCode": 319,
+      "author": "Rikka",
+      "description": "Modern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1679025505.129431,
+        "license": "GPL-3.0",
+        "homepage": "",
+        "source": "https://github.com/RikkaApps/Sui.git",
+        "support": "https://github.com/RikkaApps/Sui/issues",
+        "donate": ""
       },
-      {
-        "id": "zygisk-sui",
-        "name": "Zygisk - Sui",
-        "version": "v13.5.1",
-        "versionCode": 319,
-        "author": "Rikka",
-        "description": "Modern superuser interface implementation. This module requires Magisk 24.0+ and Zygisk enabled. DO NOT add SystemUI and Settings to DenyList.",
-        "track": {
-          "type": "ONLINE_JSON",
-          "added": 1679025505.129431,
-          "license": "GPL-3.0",
-          "homepage": "",
-          "source": "https://github.com/RikkaApps/Sui.git",
-          "support": "https://github.com/RikkaApps/Sui/issues",
-          "donate": ""
+      "versions": [
+        {
+          "timestamp": 1665741019.0,
+          "version": "v12.7.2",
+          "versionCode": 300,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk-sui/v12.7.2_300.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk-sui/v12.7.2_300.md"
         },
-        "versions": [
-          {
-            "timestamp": 1665741019.0,
-            "version": "v12.7.2",
-            "versionCode": 300,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk-sui/v12.7.2_300.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk-sui/v12.7.2_300.md"
-          },
-          {
-            "timestamp": 1695131134.0,
-            "version": "v13.5.1",
-            "versionCode": 319,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk-sui/v13.5.1_319.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk-sui/v13.5.1_319.md"
-          }
-        ]
+        {
+          "timestamp": 1695131134.0,
+          "version": "v13.5.1",
+          "versionCode": 319,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk-sui/v13.5.1_319.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk-sui/v13.5.1_319.md"
+        }
+      ]
+    },
+    {
+      "id": "zygisk_clipboard_whitelist",
+      "name": "Zygisk - Clipboard Whitelist",
+      "version": "v26",
+      "versionCode": 26,
+      "author": "Kr328",
+      "description": "Allow apps access clipboard in background.",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1679025505.129431,
+        "license": "GPL-3.0",
+        "homepage": "",
+        "source": "https://github.com/Kr328/Riru-ClipboardWhitelist.git",
+        "support": "https://github.com/Kr328/Riru-ClipboardWhitelist/issues",
+        "donate": ""
       },
-      {
-        "id": "zygisk_clipboard_whitelist",
-        "name": "Zygisk - Clipboard Whitelist",
-        "version": "v26",
-        "versionCode": 26,
-        "author": "Kr328",
-        "description": "Allow apps access clipboard in background.",
-        "track": {
-          "type": "ONLINE_JSON",
-          "added": 1679025505.129431,
-          "license": "GPL-3.0",
-          "homepage": "",
-          "source": "https://github.com/Kr328/Riru-ClipboardWhitelist.git",
-          "support": "https://github.com/Kr328/Riru-ClipboardWhitelist/issues",
-          "donate": ""
+      "versions": [
+        {
+          "timestamp": 1675570123.0,
+          "version": "v24",
+          "versionCode": 24,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_clipboard_whitelist/v24_24.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_clipboard_whitelist/v24_24.md"
         },
-        "versions": [
-          {
-            "timestamp": 1675570123.0,
-            "version": "v24",
-            "versionCode": 24,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_clipboard_whitelist/v24_24.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_clipboard_whitelist/v24_24.md"
-          },
-          {
-            "timestamp": 1697947750.0,
-            "version": "v26",
-            "versionCode": 26,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_clipboard_whitelist/v26_26.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_clipboard_whitelist/v26_26.md"
-          }
-        ]
+        {
+          "timestamp": 1697947750.0,
+          "version": "v26",
+          "versionCode": 26,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_clipboard_whitelist/v26_26.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_clipboard_whitelist/v26_26.md"
+        }
+      ]
+    },
+    {
+      "id": "zygisk_ifw_enhance",
+      "name": "Zygisk - IFW Enhance",
+      "version": "v22",
+      "versionCode": 22,
+      "author": "Kr328",
+      "description": "Allows Intent Firewall to filter results of queryIntent(Activities/Services) APIs.",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1679025505.129431,
+        "license": "GPL-3.0",
+        "homepage": "",
+        "source": "https://github.com/Kr328/Riru-IFWEnhance.git",
+        "support": "https://github.com/Kr328/Riru-IFWEnhance/issues",
+        "donate": ""
       },
-      {
-        "id": "zygisk_ifw_enhance",
-        "name": "Zygisk - IFW Enhance",
-        "version": "v22",
-        "versionCode": 22,
-        "author": "Kr328",
-        "description": "Allows Intent Firewall to filter results of queryIntent(Activities/Services) APIs.",
-        "track": {
-          "type": "ONLINE_JSON",
-          "added": 1679025505.129431,
-          "license": "GPL-3.0",
-          "homepage": "",
-          "source": "https://github.com/Kr328/Riru-IFWEnhance.git",
-          "support": "https://github.com/Kr328/Riru-IFWEnhance/issues",
-          "donate": ""
+      "versions": [
+        {
+          "timestamp": 1675569635.0,
+          "version": "v21",
+          "versionCode": 21,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_ifw_enhance/v21_21.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_ifw_enhance/v21_21.md"
         },
-        "versions": [
-          {
-            "timestamp": 1675569635.0,
-            "version": "v21",
-            "versionCode": 21,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_ifw_enhance/v21_21.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_ifw_enhance/v21_21.md"
-          },
-          {
-            "timestamp": 1697946303.0,
-            "version": "v22",
-            "versionCode": 22,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_ifw_enhance/v22_22.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_ifw_enhance/v22_22.md"
-          }
-        ]
+        {
+          "timestamp": 1697946303.0,
+          "version": "v22",
+          "versionCode": 22,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_ifw_enhance/v22_22.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_ifw_enhance/v22_22.md"
+        }
+      ]
+    },
+    {
+      "id": "zygisk_lsposed",
+      "name": "Zygisk - LSPosed",
+      "version": "v1.9.2 (7024)",
+      "versionCode": 7024,
+      "author": "LSPosed Developers",
+      "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 14. Requires Magisk 24.0+ and Zygisk enabled.",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1679025505.129431,
+        "license": "GPL-3.0",
+        "homepage": "https://lsposed.org/",
+        "source": "https://github.com/LSPosed/LSPosed.git",
+        "support": "https://github.com/LSPosed/LSPosed/issues",
+        "donate": ""
       },
-      {
-        "id": "zygisk_lsposed",
-        "name": "Zygisk - LSPosed",
-        "version": "v1.9.2 (7024)",
-        "versionCode": 7024,
-        "author": "LSPosed Developers",
-        "description": "Another enhanced implementation of Xposed Framework. Supports Android 8.1 ~ 14. Requires Magisk 24.0+ and Zygisk enabled.",
-        "track": {
-          "type": "ONLINE_JSON",
-          "added": 1679025505.129431,
-          "license": "GPL-3.0",
-          "homepage": "https://lsposed.org/",
-          "source": "https://github.com/LSPosed/LSPosed.git",
-          "support": "https://github.com/LSPosed/LSPosed/issues",
-          "donate": ""
+      "versions": [
+        {
+          "timestamp": 1673882223.0,
+          "version": "v1.8.6 (6712)",
+          "versionCode": 6712,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_lsposed/v1.8.6_(6712)_6712.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_lsposed/v1.8.6_(6712)_6712.md"
         },
-        "versions": [
-          {
-            "timestamp": 1673882223.0,
-            "version": "v1.8.6 (6712)",
-            "versionCode": 6712,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_lsposed/v1.8.6_(6712)_6712.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_lsposed/v1.8.6_(6712)_6712.md"
-          },
-          {
-            "timestamp": 1693379566.0,
-            "version": "v1.9.1 (6990)",
-            "versionCode": 6990,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_lsposed/v1.9.1_6990.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_lsposed/v1.9.1_6990.md"
-          },
-          {
-            "timestamp": 1697034252.0,
-            "version": "v1.9.2 (7024)",
-            "versionCode": 7024,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_lsposed/v1.9.2_7024.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_lsposed/v1.9.2_7024.md"
-          }
-        ]
+        {
+          "timestamp": 1693379566.0,
+          "version": "v1.9.1 (6990)",
+          "versionCode": 6990,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_lsposed/v1.9.1_6990.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_lsposed/v1.9.1_6990.md"
+        },
+        {
+          "timestamp": 1697034252.0,
+          "version": "v1.9.2 (7024)",
+          "versionCode": 7024,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_lsposed/v1.9.2_7024.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_lsposed/v1.9.2_7024.md"
+        }
+      ]
+    },
+    {
+      "id": "zygisk_shamiko",
+      "name": "Shamiko",
+      "version": "v0.7.4 (188)",
+      "versionCode": 188,
+      "author": "LSPosed Developers",
+      "description": "\u3053\u308c\u3067\u52dd\u3063\u305f\u3068\u601d\u3046\u306a\u3088\u2015\u2015\u2015!!",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1679025505.129431,
+        "license": "",
+        "homepage": "https://lsposed.org/",
+        "source": "",
+        "support": "",
+        "donate": ""
       },
-      {
-        "id": "zygisk_shamiko",
-        "name": "Shamiko",
-        "version": "v0.7.4 (188)",
-        "versionCode": 188,
-        "author": "LSPosed Developers",
-        "description": "\u3053\u308c\u3067\u52dd\u3063\u305f\u3068\u601d\u3046\u306a\u3088\u2015\u2015\u2015!!",
-        "track": {
-          "type": "ONLINE_JSON",
-          "added": 1679025505.129431,
-          "license": "",
-          "homepage": "https://lsposed.org/",
-          "source": "",
-          "support": "",
-          "donate": ""
+      "versions": [
+        {
+          "timestamp": 1680843186.0,
+          "version": "v0.7 (161)",
+          "versionCode": 161,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_shamiko/v0.7_(161)_161.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_shamiko/v0.7_(161)_161.md"
         },
-        "versions": [
-          {
-            "timestamp": 1680843186.0,
-            "version": "v0.7 (161)",
-            "versionCode": 161,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_shamiko/v0.7_(161)_161.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_shamiko/v0.7_(161)_161.md"
-          },
-          {
-            "timestamp": 1685850239.0,
-            "version": "v0.7.3 (174)",
-            "versionCode": 174,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_shamiko/v0.7.3_174.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_shamiko/v0.7.3_174.md"
-          },
-          {
-            "timestamp": 1697910921.0,
-            "version": "v0.7.4 (188)",
-            "versionCode": 188,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_shamiko/v0.7.4_188.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_shamiko/v0.7.4_188.md"
-          }
-        ]
+        {
+          "timestamp": 1685850239.0,
+          "version": "v0.7.3 (174)",
+          "versionCode": 174,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_shamiko/v0.7.3_174.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_shamiko/v0.7.3_174.md"
+        },
+        {
+          "timestamp": 1697910921.0,
+          "version": "v0.7.4 (188)",
+          "versionCode": 188,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_shamiko/v0.7.4_188.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisk_shamiko/v0.7.4_188.md"
+        }
+      ]
+    },
+    {
+      "id": "zygisksu",
+      "name": "Zygisk on KernelSU",
+      "version": "v4-0.8.0 (106-abbca19-release)",
+      "versionCode": 106,
+      "author": "Nullptr, 5ec1cff",
+      "description": "Run Zygisk on KernelSU.",
+      "track": {
+        "type": "ONLINE_JSON",
+        "added": 1679025505.129431,
+        "license": "GPL-3.0",
+        "homepage": "",
+        "source": "https://github.com/Dr-TSNG/ZygiskOnKernelSU.git",
+        "support": "https://github.com/Dr-TSNG/ZygiskOnKernelSU/issues",
+        "donate": ""
       },
-      {
-        "id": "zygisksu",
-        "name": "Zygisk on KernelSU",
-        "version": "v4-0.8.0 (106-abbca19-release)",
-        "versionCode": 106,
-        "author": "Nullptr, 5ec1cff",
-        "description": "Run Zygisk on KernelSU.",
-        "track": {
-          "type": "ONLINE_JSON",
-          "added": 1679025505.129431,
-          "license": "GPL-3.0",
-          "homepage": "",
-          "source": "https://github.com/Dr-TSNG/ZygiskOnKernelSU.git",
-          "support": "https://github.com/Dr-TSNG/ZygiskOnKernelSU/issues",
-          "donate": ""
+      "versions": [
+        {
+          "timestamp": 1679572814.0,
+          "version": "v4-0.6.4 (73)",
+          "versionCode": 73,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisksu/v4-0.6.4_(73)_73.zip",
+          "changelog": ""
         },
-        "versions": [
-          {
-            "timestamp": 1679572814.0,
-            "version": "v4-0.6.4 (73)",
-            "versionCode": 73,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisksu/v4-0.6.4_(73)_73.zip",
-            "changelog": ""
-          },
-          {
-            "timestamp": 1687179483.0,
-            "version": "v4-0.7.1 (89-release)",
-            "versionCode": 89,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisksu/v4-0.7.1_89-release.zip",
-            "changelog": ""
-          },
-          {
-            "timestamp": 1697909535.0,
-            "version": "v4-0.8.0 (106-abbca19-release)",
-            "versionCode": 106,
-            "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisksu/v4-0.8.0_106-abbca19-release.zip",
-            "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisksu/v4-0.8.0_106-abbca19-release.md"
-          }
-        ]
-      }
-    ]
-  }
+        {
+          "timestamp": 1687179483.0,
+          "version": "v4-0.7.1 (89-release)",
+          "versionCode": 89,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisksu/v4-0.7.1_89-release.zip",
+          "changelog": ""
+        },
+        {
+          "timestamp": 1697909535.0,
+          "version": "v4-0.8.0 (106-abbca19-release)",
+          "versionCode": 106,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisksu/v4-0.8.0_106-abbca19-release.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/zygisksu/v4-0.8.0_106-abbca19-release.md"
+        }
+      ]
+    }
+  ]
+}
