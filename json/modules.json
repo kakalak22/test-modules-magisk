@@ -10,21 +10,38 @@
       "name": "magisk hide props",
       "version": "1.0.41",
       "versionCode": 104113,
-      "author": "test",
+      "author": "osm0sis & Surge1223 @ xda-developers",
       "description": "Static ARM adb and fastboot binaries for Android built with the NDK",
       "track": {
         "type": "ONLINE_JSON",
         "added": 1679025505.129431,
         "license": "",
         "homepage": "",
-        "source": "https://github.com/Magisk-Modules-Repo/MagiskHidePropsConf.git"
+        "source": "https://github.com/Magisk-Modules-Repo/MagiskHidePropsConf.git",
+        "support": "https://is.gd/osm0_",
+        "donate": "https://github.com/sponsors/osm0sis"
       },
       "versions": [
         {
           "timestamp": 1686557746.0,
           "version": "1.0.41",
           "versionCode": 104111,
-          "zipUrl": "https://kakalak22.github.io/test-modules-magisk/modules/magisk-hide-props/MagiskHidePropsConf-v6.1.2.zip"
+          "zipUrl": "https://kakalak22.github.io/test-modules-magisk/modules/magisk-hide-props/MagiskHidePropsConf-v6.1.2.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/adb-ndk/1.0.41_104111.md"
+        },
+        {
+          "timestamp": 1693442224.0,
+          "version": "1.0.41",
+          "versionCode": 104112,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/adb-ndk/1.0.41_104112.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/adb-ndk/1.0.41_104112.md"
+        },
+        {
+          "timestamp": 1693751147.0,
+          "version": "1.0.41",
+          "versionCode": 104113,
+          "zipUrl": "https://mrepoapp.github.io/demo-modules-repo/modules/adb-ndk/1.0.41_104113.zip",
+          "changelog": "https://mrepoapp.github.io/demo-modules-repo/modules/adb-ndk/1.0.41_104113.md"
         }
       ]
     },
