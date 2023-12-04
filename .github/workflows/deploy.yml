@@ -60,14 +60,14 @@ jobs:
         run: |
           python util/cli.py sync --diff versions_diff.md
 
-      - name: Write versions diff to summary
-        if: ${{ env.IS_SYNC == 'true' }}
-        run: |
-          if [ -f versions_diff.md ]; then
-            echo "## Versions Diff" >> $GITHUB_STEP_SUMMARY
-            echo "$(cat versions_diff.md)" >> $GITHUB_STEP_SUMMARY
-            rm versions_diff.md
-          fi
+      # - name: Write versions diff to summary
+      #   if: ${{ env.IS_SYNC == 'true' }}
+      #   run: |
+      #     if [ -f versions_diff.md ]; then
+      #       echo "## Versions Diff" >> $GITHUB_STEP_SUMMARY
+      #       echo "$(cat versions_diff.md)" >> $GITHUB_STEP_SUMMARY
+      #       rm versions_diff.md
+      #     fi
           
       - name: Write latest versions to summary
         if: ${{ env.IS_SYNC != 'true' }}
