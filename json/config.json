@@ -1,6 +1,6 @@
 {
   "name": "my Magisk Repo",
-  "base_url": "//https://kakalak22.github.io/test-modules-magisk/",
+  "base_url": "https://kakalak22.github.io/test-modules-magisk/",
   "max_num": 3,
   "enable_log": true,
   "log_dir": "log"
